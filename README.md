@@ -19,9 +19,9 @@ Python is required for some tools to work.
 
 You can download and install python from:
 
-```
+``
 https://www.python.org/
-```
+``
 
 Pipenv (https://github.com/pypa/pipenv) is required to install the dependencies. It creates a virtual environment for you.
 
