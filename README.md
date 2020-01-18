@@ -38,3 +38,27 @@ Run the following command to install all the dependencies.
 pipenv install
 
 ```
+
+#### Converting CSV file to JSON file
+
+A tool for converting a CSV file to JSON file
+
+```bash
+usage: CsvToJson.py [-h] <source> <destination>
+
+A utility to convert csv file to json file
+
+positional arguments:
+  <source>       source csv file
+  <destination>  destination json file
+
+optional arguments:
+  -h, --help     show this help message and exit
+```
+
+example:
+```bash
+
+python CsvToJson.py ../test.csv ../test.json
+
+```
