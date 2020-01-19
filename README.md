@@ -39,6 +39,17 @@ pipenv install
 
 ```
 
+#### Usage
+In order to use you must be on pipenv shell.
+
+Run the following command on your terminal.
+
+```bash
+pipenv shell
+```
+
+
+
 #### Converting CSV file to JSON file
 
 A tool for converting a CSV file to JSON file
@@ -61,5 +72,35 @@ example:
 ```bash
 
 python CsvToJson.py ../test.csv ../test.json
+
+```
+
+#### Zipping a directory
+A tool for zipping files
+```bash
+usage: Zipdir.py [-h] <source> <destination>
+
+a utility that will convert a directory into a ZipFile
+
+positional arguments:
+  <source>       source directory directory path
+  <destination>  destination directory path
+
+optional arguments:
+  -h, --help     show this help message and exit
+
+```
+
+example:
+
+```bash
+
+#zipping the current directory
+python Zipdir.py . ../test.zip
+
+
+#zipping another directory
+
+python Zipdir.py D:\example D:\example.zip
 
 ```
