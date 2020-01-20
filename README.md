@@ -76,7 +76,7 @@ python CsvToJson.py ../test.csv ../test.json
 ```
 
 #### Zipping a directory
-A tool for zipping files
+A tool for zipping a directory
 ```bash
 usage: Zipdir.py [-h] <source> <destination>
 
