@@ -1,5 +1,5 @@
 # IT Utilities
-A set of IT utilities to help my daily life as a programmer, and a system administrator.
+A set of IT utilities to help my daily life as a programmer, and a system administrator. It includes tools for converting csv to json and zipping directories.
 
 ## Getting Started
 
